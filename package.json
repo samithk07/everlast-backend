@@ -1,11 +1,12 @@
 {
-  "name": "nextrig-backend",
+  "name": "everlast-backend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+    "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "json-server": "^0.17.3"
   }
 }
